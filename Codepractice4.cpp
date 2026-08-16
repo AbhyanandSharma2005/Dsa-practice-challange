@@ -54,10 +54,10 @@ public:
     }
 };
 
-// #include <vector>
-// #include <cmath>
+#include <vector>
+#include <cmath>
 
-// class Solution {
+class Solution {
 // public:
 //     bool stoneGameIX(std::vector<int>& stones) {
 //         int counts[3] = {0, 0, 0};
