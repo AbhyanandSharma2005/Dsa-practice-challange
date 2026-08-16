@@ -47,8 +47,4 @@ public:
         int counts[3] = {0, 0, 0};
         for (int stone : stones) {
             counts[stone % 3]++;
-        }
-        
-        return canAliceWin(counts[0], counts[1], counts[2]) || 
-               canAliceWin(counts[0], counts[2], counts[1]);
-    }
+updates
