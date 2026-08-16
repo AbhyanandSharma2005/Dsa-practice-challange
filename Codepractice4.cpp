@@ -88,4 +88,4 @@ public:
         
         return (c0 & 1) ? std::abs(c1 - c2) > 2 : (c1 && c2);
     }
-}
+};
