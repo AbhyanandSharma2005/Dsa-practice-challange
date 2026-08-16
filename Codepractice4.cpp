@@ -67,8 +67,3 @@ public:
         }
         
         if (counts[0] % 2 == 0) {
-            return counts[1] > 0 && counts[2] > 0;
-        } else {
-            return std::abs(counts[1] - counts[2]) > 2;
-        }
-    }
