@@ -36,11 +36,11 @@ private:
         int total_played = played_non_zero + c0; 
         
         if (total_played == c0 + c1 + c2) {
-//             return false; 
-//         }
+            return false; 
+        }
         
-//         return total_played % 2 != 0; 
-//     }
+        return total_played % 2 != 0; 
+    }
     
 // public:
 //     bool stoneGameIX(std::vector<int>& stones) {
