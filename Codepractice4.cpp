@@ -4,16 +4,12 @@
 class Solution {
 public:
     bool stoneGameIX(std::vector<int>& stones) {
-        int counts[3] = {0, 0, 0};
+        int c0 = 0, c1 = 0, c2 = 0;
         
-        for (int stone : stones) {
-            counts[stone % 3]++;
+        for (int x : stones) {
+            (x % 3 == 0) ? c0++ : (x % 3 == 1) ? c1++ : c2++;
         }
         
-        if (counts[0] % 2 == 0) {
-            return counts[1] > 0 && counts[2] > 0;
-        } else {
-            return std::abs(counts[1] - counts[2]) > 2;
-        }
+        return (c0 & 1) ? std::abs(c1 - c2) > 2 : (c1 && c2);
     }
 };
