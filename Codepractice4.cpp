@@ -22,8 +22,3 @@ public:
 #include <algorithm>
 
 class Solution {
-private:
-    bool canAliceWin(int c0, int c1, int c2) {
-        if (c1 == 0) return false; 
-        
-        int k = std::min(c1 - 1, c2); 
