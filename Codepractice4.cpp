@@ -42,9 +42,3 @@ private:
         return total_played % 2 != 0; 
     }
     
-public:
-    bool stoneGameIX(std::vector<int>& stones) {
-        int counts[3] = {0, 0, 0};
-        for (int stone : stones) {
-            counts[stone % 3]++;
-updates
