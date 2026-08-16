@@ -24,12 +24,12 @@ public:
 class Solution {
 private:
     bool canAliceWin(int c0, int c1, int c2) {
-//         if (c1 == 0) return false; 
+        if (c1 == 0) return false; 
         
-//         int k = std::min(c1 - 1, c2); 
-//         int played_non_zero = 1 + 2 * k; 
+        int k = std::min(c1 - 1, c2); 
+        int played_non_zero = 1 + 2 * k; 
         
-//         if (c1 - 1 > k) {
+        if (c1 - 1 > k) {
 //             played_non_zero++;
 //         }
         
