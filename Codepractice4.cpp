@@ -27,8 +27,3 @@ private:
         if (c1 == 0) return false; 
         
         int k = std::min(c1 - 1, c2); 
-        int played_non_zero = 1 + 2 * k; 
-        
-        if (c1 - 1 > k) {
-            played_non_zero++;
-        }
