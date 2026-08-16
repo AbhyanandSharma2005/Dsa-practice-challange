@@ -30,12 +30,12 @@ private:
         int played_non_zero = 1 + 2 * k; 
         
         if (c1 - 1 > k) {
-//             played_non_zero++;
-//         }
+            played_non_zero++;
+        }
         
-//         int total_played = played_non_zero + c0; 
+        int total_played = played_non_zero + c0; 
         
-//         if (total_played == c0 + c1 + c2) {
+        if (total_played == c0 + c1 + c2) {
 //             return false; 
 //         }
         
