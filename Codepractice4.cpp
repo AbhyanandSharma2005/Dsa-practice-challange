@@ -72,8 +72,3 @@ public:
             return std::abs(counts[1] - counts[2]) > 2;
         }
     }
-};
-
-#include <vector>
-#include <cmath>
-
