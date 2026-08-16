@@ -49,10 +49,10 @@ public:
             counts[stone % 3]++;
         }
         
-//         return canAliceWin(counts[0], counts[1], counts[2]) || 
-//                canAliceWin(counts[0], counts[2], counts[1]);
-//     }
-// };
+        return canAliceWin(counts[0], counts[1], counts[2]) || 
+               canAliceWin(counts[0], counts[2], counts[1]);
+    }
+};
 
 // #include <vector>
 // #include <cmath>
