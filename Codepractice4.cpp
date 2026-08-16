@@ -37,8 +37,3 @@ private:
         
         if (total_played == c0 + c1 + c2) {
             return false; 
-        }
-        
-        return total_played % 2 != 0; 
-    }
-    
