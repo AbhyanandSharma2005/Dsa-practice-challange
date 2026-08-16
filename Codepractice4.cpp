@@ -42,12 +42,12 @@ private:
         return total_played % 2 != 0; 
     }
     
-// public:
-//     bool stoneGameIX(std::vector<int>& stones) {
-//         int counts[3] = {0, 0, 0};
-//         for (int stone : stones) {
-//             counts[stone % 3]++;
-//         }
+public:
+    bool stoneGameIX(std::vector<int>& stones) {
+        int counts[3] = {0, 0, 0};
+        for (int stone : stones) {
+            counts[stone % 3]++;
+        }
         
 //         return canAliceWin(counts[0], counts[1], counts[2]) || 
 //                canAliceWin(counts[0], counts[2], counts[1]);
