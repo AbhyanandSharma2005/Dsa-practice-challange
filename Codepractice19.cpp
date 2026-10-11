@@ -8,6 +8,6 @@ public:
               result += nums[i]*nums[i];
             }
         }
-        return result;
+        return result
     }
 };
