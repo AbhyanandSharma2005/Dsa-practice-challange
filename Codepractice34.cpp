@@ -112,5 +112,5 @@ public:
             }
         }
         return (int)ans;
-    
+    } 
 };
