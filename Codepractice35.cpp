@@ -23,4 +23,3 @@ int countSwaps(vector<int> &perm){
     }
 
     return transpositions;
-}
