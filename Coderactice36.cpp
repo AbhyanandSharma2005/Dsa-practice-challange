@@ -63,4 +63,3 @@ struct Solution {
         return result - 1u;
     }
 };
-}
