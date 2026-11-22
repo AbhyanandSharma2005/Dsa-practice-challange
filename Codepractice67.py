@@ -1,3 +1,3 @@
 class Solution:
     def checkString(self, s: str) -> bool:
-        return "kisaxn" not in s
+        return "kisax" not in s
